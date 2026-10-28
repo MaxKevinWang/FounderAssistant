@@ -1,0 +1,32 @@
+# Keep the exact line endings required by frozen evaluation hashes.
+docs/evaluation/formal_dataset/prompts/configuration_generation_prompt_v1.0.md text eol=lf
+docs/evaluation/formal_dataset/prompts/configuration_generation_prompt_v1.1.md text eol=lf
+docs/evaluation/formal_dataset/prompts/primary_law_configuration_revision_protocol_v1.0.md text eol=lf
+docs/evaluation/formal_dataset/prompts/primary_law_configuration_semantic_curation_protocol_v0.2.md text eol=lf
+docs/evaluation/formal_dataset/prompts/primary_law_qra_revision_protocol_v0.4.md text eol=lf
+docs/evaluation/formal_dataset/prompts/qra_generation_prompt_v0.1.md text eol=lf
+docs/evaluation/formal_dataset/prompts/qra_generation_prompt_v1.0.md text eol=lf
+docs/evaluation/formal_dataset/prompts/qra_review_revision_protocol_v1.0.md text eol=lf
+docs/evaluation/formal_dataset/prompts/upstream_revision_v1.1.md text eol=lf
+docs/evaluation/formal_dataset/qra/C-FP-MHR-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-FP-NC-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-FP-S-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-FP-TS-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-LFS-F-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-LFS-II-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-LFS-TS-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-LFS-U-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-MV-F-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-MV-MHR-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-MV-S-001_candidate_comparison_v0.1.md text eol=crlf
+docs/evaluation/formal_dataset/qra/C-MV-TS-001_candidate_comparison_v0.1.md text eol=lf
+docs/evaluation/optimization_dataset/configurations/optimization_configuration_freeze_authorization_v1.0.json text eol=lf
+docs/evaluation/optimization_dataset/documents/optimization_document_freeze_authorization_v1.0.json text eol=lf
+docs/evaluation/optimization_dataset/qra/optimization_qra_freeze_authorization_v1.0.json text eol=lf
+docs/evaluation/schemas/prompts/schema_generation_prompt_funding_preparation_v0.1.md text eol=lf
+docs/evaluation/schemas/prompts/schema_generation_prompt_market_validation_v0.1.md text eol=lf
+docs/evaluation/schemas/prompts/schema_generation_prompt_v0.1.md text eol=lf
+
+# Submission artifacts must retain their exact binary content.
+*.pdf binary
+*.pptx binary

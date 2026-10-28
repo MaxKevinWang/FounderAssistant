@@ -1,0 +1,45 @@
+# Dependencies and generated files
+__pycache__/
+*.py[cod]
+*.sqlite3
+.pytest_cache/
+.ruff_cache/
+.venv/
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.ipynb_checkpoints/
+# Local corpus, indices and experimental output
+knowledge_base/**
+!knowledge_base/README.md
+backend/rag_index/
+docs/evaluation/*
+!docs/evaluation/judges/
+docs/evaluation/judges/*
+!docs/evaluation/judges/prompts/
+docs/problem_datasets/
+docs/crawl_states/
+# Private academic materials
+docs/research/
+docs/interviews/
+docs/presentations/
+docs/survey/
+docs/weekly_reports/
+notebooks/survey_analysis/
+# Scratch and logs
+.codex-build/
+tmp/
+temp/
+conversation_logs/
+*.tmp
+*.log
+~$*

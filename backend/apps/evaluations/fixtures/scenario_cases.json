@@ -1,0 +1,80 @@
+[
+  {
+    "model": "evaluations.scenariocase",
+    "pk": 1,
+    "fields": {
+      "code": "LF-001",
+      "domain": "legal_form",
+      "title": "Solo SaaS founder with low initial capital",
+      "problem_statement": "Choose a legal form in Germany with limited capital and moderate liability concerns.",
+      "founder_context": {"team_size": 1, "capital": "low", "sector": "B2B SaaS"},
+      "expected_outcomes": ["Compare UG vs GmbH", "Mention liability implications", "Provide concrete next steps"],
+      "created_at": "2026-03-25T10:00:00Z"
+    }
+  },
+  {
+    "model": "evaluations.scenariocase",
+    "pk": 2,
+    "fields": {
+      "code": "LF-002",
+      "domain": "legal_form",
+      "title": "Two co-founders planning external investment",
+      "problem_statement": "Select legal form considering governance, investor signaling and future scaling.",
+      "founder_context": {"team_size": 2, "capital": "medium", "goal": "angel investment"},
+      "expected_outcomes": ["Assess governance structure", "Address investor expectations", "Outline conversion path"],
+      "created_at": "2026-03-25T10:00:00Z"
+    }
+  },
+  {
+    "model": "evaluations.scenariocase",
+    "pk": 3,
+    "fields": {
+      "code": "FP-001",
+      "domain": "funding",
+      "title": "Bootstrapped startup preparing first investor meeting",
+      "problem_statement": "Prioritize funding preparation tasks for an upcoming angel pitch.",
+      "founder_context": {"stage": "pre-seed", "revenue": "none", "runway_months": 6},
+      "expected_outcomes": ["Checklist for documents", "Define milestones and KPIs", "Highlight key risks"],
+      "created_at": "2026-03-25T10:00:00Z"
+    }
+  },
+  {
+    "model": "evaluations.scenariocase",
+    "pk": 4,
+    "fields": {
+      "code": "FP-002",
+      "domain": "funding",
+      "title": "Grant and accelerator readiness",
+      "problem_statement": "Prepare a funding roadmap combining grants and accelerator applications.",
+      "founder_context": {"stage": "idea", "team": "technical", "region": "Baden-Wuerttemberg"},
+      "expected_outcomes": ["Roadmap of funding instruments", "Eligibility hints", "Action plan by month"],
+      "created_at": "2026-03-25T10:00:00Z"
+    }
+  },
+  {
+    "model": "evaluations.scenariocase",
+    "pk": 5,
+    "fields": {
+      "code": "MV-001",
+      "domain": "market_validation",
+      "title": "Problem-Solution fit interviews",
+      "problem_statement": "Design a rapid interview-based validation approach for an AI productivity idea.",
+      "founder_context": {"target": "SMB owners", "budget": "low", "time_weeks": 3},
+      "expected_outcomes": ["Interview protocol", "Signal thresholds", "Decision rule for next iteration"],
+      "created_at": "2026-03-25T10:00:00Z"
+    }
+  },
+  {
+    "model": "evaluations.scenariocase",
+    "pk": 6,
+    "fields": {
+      "code": "MV-002",
+      "domain": "market_validation",
+      "title": "MVP experiment with landing page",
+      "problem_statement": "Plan an MVP test with measurable metrics before building full product.",
+      "founder_context": {"channel": "LinkedIn", "goal": "waitlist signups", "duration_days": 14},
+      "expected_outcomes": ["Experiment setup", "North-star metrics", "Pivot/persevere criteria"],
+      "created_at": "2026-03-25T10:00:00Z"
+    }
+  }
+]
